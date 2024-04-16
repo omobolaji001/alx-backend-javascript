@@ -9,5 +9,5 @@ export default function createInt8TypedArray(length, position, value) {
 
   const view = new DataView(buffer);
 
-  return view
+  return view;
 }
